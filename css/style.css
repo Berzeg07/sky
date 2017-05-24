@@ -34,4 +34,229 @@ q:before, q:after {
   content: '';
   content: none; }
 
+.no-padding {
+  padding: 0px; }
+
+span {
+  display: inline-block; }
+
+.clear {
+  clear: both; }
+
+/* header
+==============================*/
+.header__wrap {
+  background: url(../img/headerbg.jpg) no-repeat top center;
+  background-size: cover;
+  width: 100%; }
+  .header__wrap_top {
+    background-color: rgba(83, 122, 191, 0.43);
+    background-image: linear-gradient(to top, transparent 0%, rgba(30, 184, 255, 0.6) 100%);
+    padding-top: 30px; }
+    @media only screen and (min-width: 992px) {
+      .header__wrap_top {
+        padding-bottom: 52px; } }
+
+.header {
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative; }
+  @media only screen and (min-width: 992px) {
+    .header {
+      padding-left: 0;
+      padding-right: 0; } }
+  .header__menu-box {
+    display: none; }
+    @media only screen and (min-width: 992px) {
+      .header__menu-box {
+        display: block !important; } }
+  .header__bars {
+    position: absolute;
+    left: 15px;
+    top: -7px; }
+    @media only screen and (min-width: 992px) {
+      .header__bars {
+        display: none; } }
+    .header__bars .fa-bars {
+      color: #fff;
+      font-size: 30px;
+      cursor: pointer; }
+  .header__lang {
+    text-align: right;
+    padding-bottom: 28px; }
+    .header__lang a {
+      font-size: 18px;
+      font-family: "HelveticaNeueCyr-Light";
+      color: #075aa0;
+      margin-left: 17px; }
+      .header__lang a:hover {
+        color: #fff; }
+    .header__lang .lang_active {
+      color: #fff; }
+  .header__tel {
+    text-align: center; }
+    @media only screen and (min-width: 992px) {
+      .header__tel {
+        text-align: left; }
+        .header__tel_box {
+          float: left; }
+        .header__tel_bottom {
+          padding-top: 13px;
+          padding-left: 10px; } }
+    @media only screen and (min-width: 992px) and (min-width: 1240px) {
+      .header__tel_bottom {
+        padding-left: 78px; } }
+
+    .header__tel span {
+      font-family: "HelveticaNeueCyr-Roman";
+      font-size: 27px;
+      color: white;
+      background: url(../img/tel.png) no-repeat left center;
+      padding-left: 24px; }
+  .header__menu {
+    text-align: center; }
+    @media only screen and (min-width: 992px) {
+      .header__menu {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 16px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fff; } }
+    @media only screen and (min-width: 1240px) {
+      .header__menu {
+        margin-left: 28px; } }
+    .header__menu li {
+      margin: 15px 0px; }
+      @media only screen and (min-width: 992px) {
+        .header__menu li {
+          display: inline-block;
+          margin: 0; } }
+      .header__menu li a {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: white;
+        font-family: "HelveticaNeueCyr-Thin"; }
+
+.header__bottom {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 100px; }
+  .header__bottom span {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "HelveticaNeueCyr-Black"; }
+    @media only screen and (min-width: 992px) {
+      .header__bottom span {
+        font-size: 68px;
+        padding-bottom: 5px; } }
+  .header__bottom p {
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+    font-family: "HelveticaNeueCyr-Light";
+    max-width: 358px;
+    margin: 0 auto; }
+
+.block-logo {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transform-origin: center; }
+  .block-logo img {
+    margin: 0 auto; }
+
+.block-logo__hover {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(200, 200, 200, 0.7);
+  width: 288px;
+  height: 100%;
+  color: #fff;
+  opacity: 0;
+  -o-transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+  transition-delay: 0.2s; }
+  @media only screen and (min-width: 992px) {
+    .block-logo__hover {
+      width: 100%; } }
+  .block-logo__hover p {
+    font-family: "HelveticaNeueCyr-Light";
+    font-size: 18px;
+    margin: 155px 0px 25px 0;
+    text-align: left;
+    padding: 0px 21px;
+    opacity: 0;
+    color: white;
+    -o-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s; }
+
+.block-logo__hover_3 p {
+  margin: 111px 0px 25px 0; }
+  @media only screen and (min-width: 992px) {
+    .block-logo__hover_3 p {
+      margin: 84px 0px 25px 0; } }
+  @media only screen and (min-width: 1240px) {
+    .block-logo__hover_3 p {
+      margin: 111px 0px 25px 0; } }
+
+.block-logo:hover .block-logo__hover {
+  opacity: 1; }
+  .block-logo:hover .block-logo__hover p {
+    opacity: 1; }
+
+.block-logo_1 {
+  height: 262px; }
+  @media only screen and (min-width: 992px) {
+    .block-logo_1 {
+      height: 222px; }
+      .block-logo_1 .block-logo__hover p {
+        margin: 84px 0px 25px 0; } }
+  @media only screen and (min-width: 1240px) {
+    .block-logo_1 {
+      height: 262px; }
+      .block-logo_1 .block-logo__hover p {
+        margin: 155px 0px 25px 0; } }
+
+.block-logo_2 {
+  height: 425px; }
+  @media only screen and (min-width: 992px) {
+    .block-logo_2 {
+      height: 360px; } }
+  @media only screen and (min-width: 1240px) {
+    .block-logo_2 {
+      height: 425px; } }
+
+.block-logo_3 {
+  height: 209px; }
+  @media only screen and (min-width: 992px) {
+    .block-logo_3 {
+      height: 178px; }
+      .block-logo_3 .block-logo__hover p {
+        margin: 41px 0px 25px 0; } }
+  @media only screen and (min-width: 1240px) {
+    .block-logo_3 {
+      height: 209px; }
+      .block-logo_3 .block-logo__hover p {
+        margin: 111px 0px 25px 0; } }
+
+.block-logo_4 {
+  height: 262px; }
+  @media only screen and (min-width: 992px) {
+    .block-logo_4 {
+      height: 222px; } }
+  @media only screen and (min-width: 1240px) {
+    .block-logo_4 {
+      height: 262px; } }
+
 /*# sourceMappingURL=style.css.map */
