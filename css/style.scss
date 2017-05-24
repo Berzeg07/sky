@@ -122,14 +122,14 @@ span{
             }
         }
         span{
-           font-family: "HelveticaNeueCyr-Roman";
-           font-size: 27px;
-           color: white;
-           background:url(../img/tel.png) no-repeat left center;
-           padding-left: 24px;
-       }
-   }
-   &__menu{
+         font-family: "HelveticaNeueCyr-Roman";
+         font-size: 27px;
+         color: white;
+         background:url(../img/tel.png) no-repeat left center;
+         padding-left: 24px;
+     }
+ }
+ &__menu{
     text-align: center;
     @media only screen and (min-width : 992px) {
         display: flex;
@@ -215,6 +215,9 @@ span{
     @media only screen and (min-width : 992px) {
         width: 100%;
     }
+    @media only screen and (min-width : 1240px) {
+        width: 98%;
+    }
     p{
         font-family: "HelveticaNeueCyr-Light";
         font-size: 18px;
@@ -250,8 +253,8 @@ span{
     }   
 }
 .block-logo_1{
-   height: 262px;
-   @media only screen and (min-width : 992px) {
+ height: 262px;
+ @media only screen and (min-width : 992px) {
     height: 222px;
     .block-logo__hover{
         p{
@@ -289,7 +292,7 @@ span{
     }
     @media only screen and (min-width : 1240px) {
         height: 209px;
-         .block-logo__hover{
+        .block-logo__hover{
             p{
                 margin: 111px 0px 25px 0 ;
             }
@@ -297,8 +300,8 @@ span{
     }
 }
 .block-logo_4{
-   height: 262px;
-   @media only screen and (min-width : 992px) {
+ height: 262px;
+ @media only screen and (min-width : 992px) {
     height: 222px;
 }
 @media only screen and (min-width : 1240px) {
