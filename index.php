@@ -359,9 +359,61 @@
 		</div>
 
 	</div>
+	
+	<div class="enter-wrap">
+		<div class="container">
+			<div class="enter__message">
+				<h2>Вступайте в клуб Nebo Family</h2>
+				<p>Регистрируйтесь прямо сейчас и<br/>
+					используйте все привелегии!
+				</p>
+				<form class="form1" action="#" method="post">
+					<input class="enter-input" name="email" type="email" placeholder="Ваш email" required="">
+					<input class="enter-submit" name="submit" type="submit" value="вступить">
+					<div class="clearfix"></div>
+				</form>
+			</div>
+		</div>
+	</div>	
 
+	<div class="form-footer__wrap">
+		<div class="container">
+			<div class="form-footer">
+				<h2>Пожалуйста, не стесняйтесь написать<br/>
+					нам в любое время дня и ночи:<br/>
+					<b>8 800 800 80 80</b> 
+				</h2>
+				<div class="form-footer__box">
+					<form class="form1" action="#" method="post">
+						<input class="footer-input" name="email" type="email" placeholder="Ваш email" required="">
+						<input class="footer-input phone" name="phone" type="text" placeholder="Ваш телефон">
+						<input class="footer-submit" name="submit" type="submit" value="оставить заявку">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-
+	<div class="container">
+		<div class="social">
+			<ul>
+				<li><a href="#"><img src="img/vk.png" alt=""></a></li>
+				<li><a href="#"><img src="img/face.png" alt=""></a></li>
+				<li><a href="#"><img src="img/twit.png" alt=""></a></li>
+				<li><a href="#"><img src="img/in.png" alt=""></a></li>
+			</ul>
+		</div>
+		<div class="copyright">
+			<div class="copyright-box_left"><img src="img/img1.png" alt=""></div>
+			<div class="copyright-box_right">
+				<p>
+					Copyright © Webrazavr. 2017. All rights reserved<br/>
+					Любое использование материалов, представленных на сайте,<br/>
+					разрешено только с письменного согласия владельца. 
+				</p>
+			</div>
+		</div>
+	</div>
 
 	<!-- JS_BLOCK -->
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
@@ -376,30 +428,22 @@
 	<script src="js/jquery.cssslider.js"></script>
 
 	<script>
-		function func1() {
-			$('.current_item1').addClass('current_item2')
-			$('.current_item .current_item1').removeClass('current_item2');
-        // $('.item-title').addClass('hide')
-        $('.current_item .item-title').removeClass('hide');
-        // $('.item-someth').addClass('hide')
-        $('.current_item .item-someth').removeClass('hide');
-    }
-    $(function() {
-    	$("#mySlider2").AnimatedSlider( { prevButton: "#btn_prev2", 
-    		nextButton: "#btn_next2",
-    		visibleItems: 5,
-    		infiniteScroll: true,
-    		willChangeCallback: function(obj, item) { $("#statusText").text("Will change to " + item); },
-    		changedCallback: function(obj, item) { $("#statusText").text("Changed to " + item); }
-    	});
-    	$('#btn_next2, #btn_prev2').click(function(){
-    		func1();
-    	});
-    	func1();
-    });
+		
 </script>
 
-
+<div id="mask"></div>
+<div id="thanks" class="window">
+	<div class="form-wrap-main">
+		<div class="dd-close">X</div>
+		<div class="form-title">
+			Спасибо за заявку!
+		</div>
+		<div class="dd-form-txt">
+			Наш менеджер свяжется с вами в ближайшее время!
+		</div>
+	</div>
+</div>
+<a href="#thanks" name="modal"></a>
 
 </body>
 </html>
