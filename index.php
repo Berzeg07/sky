@@ -48,7 +48,7 @@
 						<div class="header__menu-box">
 							<div class="col-xs-12 col-sm-12 col-md-6 no-padding">
 								<div class="header__tel">
-									<div class="header__tel_box"><a href="#"><img src="img/logo.png" alt=""></a></div>
+									<div class="header__tel_box"><a href="#"><img src="img/logo2.jpg" alt=""></a></div>
 									<div class="header__tel_box header__tel_bottom"><span>8 800 800 80 80</span></div>
 									<div class="clearfix"></div>
 								</div>
@@ -373,6 +373,14 @@
 					<input class="enter-submit" name="submit" type="submit" value="вступить">
 					<div class="clearfix"></div>
 				</form>
+				<div class="checkbox-box">
+					<label>
+						<input class="checkbox" type="checkbox" name="checkbox-test" checked>
+						<span class="checkbox-custom"></span>
+						<span class="txt-check">Согласны с политикой конфидециальности</span>
+						<span class="label"></span>
+					</label>
+				</div>
 			</div>
 		</div>
 	</div>	
@@ -420,9 +428,9 @@
 	<!-- JS_BLOCK -->
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<!-- <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script src="js/responsiveTabs.js"></script> -->
+	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/fonts.js"></script>
 	<script src="js/common.js"></script>

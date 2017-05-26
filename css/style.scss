@@ -56,12 +56,14 @@ html, body{
     background:url(../img/headerbg.jpg) no-repeat top center;
     background-size:cover;
     width: 100%;
+    padding-bottom: 71px;
     &_top{
-        background-color: rgba(83, 122, 191, 0.43);
-        background-image: linear-gradient(to top, transparent 0%, rgba(30, 184, 255, 0.6) 100%);
-        padding-top: 30px;
+        // background-color: rgba(83, 122, 191, 0.43);
+        background-color: #fff;
+        // background-image: linear-gradient(to top, transparent 0%, rgba(30, 184, 255, 0.6) 100%);
+        padding-top: 21px;
         @media only screen and (min-width : 992px) {
-            padding-bottom: 52px;
+            padding-bottom: 39px;
         }
     }
 }
@@ -87,7 +89,7 @@ html, body{
             display: none;
         }
         .fa-bars{
-            color:#fff;
+            color:#3B3B3B;
             font-size: 30px;
             cursor: pointer;
         }
@@ -96,49 +98,46 @@ html, body{
         text-align: right;
         padding-bottom: 28px;
         a{
-            font-size: 18px;
+            font-size: 20px;
             font-family: "HelveticaNeueCyr-Light";
-            color: #075aa0;
+            color: #3B3B3B;
             margin-left: 17px;
             &:hover{
-                color: #fff;
+               color: #075aa0;
+           }
+       }   
+   }
+   &__tel{
+    text-align: center;
+    @media only screen and (min-width : 992px) {
+        text-align: left;
+        &_box{
+            float: left;
+        }
+        &_bottom{
+            padding-top: 13px;
+            padding-left: 10px;
+            @media only screen and (min-width : 1240px) {
+                padding-left: 78px;
             }
         }
-        .lang_active{
-            color:#fff;
-        }    
     }
-    &__tel{
-        text-align: center;
-        @media only screen and (min-width : 992px) {
-            text-align: left;
-            &_box{
-                float: left;
-            }
-            &_bottom{
-                padding-top: 13px;
-                padding-left: 10px;
-                @media only screen and (min-width : 1240px) {
-                    padding-left: 78px;
-                }
-            }
-        }
-        span{
-         font-family: "HelveticaNeueCyr-Roman";
-         font-size: 27px;
-         color: white;
-         background:url(../img/tel.png) no-repeat left center;
-         padding-left: 24px;
-     }
+    span{
+     font-family: "HelveticaNeueCyr-Roman";
+     font-size: 27px;
+     color: #3B3B3B;
+     background:url(../img/tel2.jpg) no-repeat left center;
+     padding-left: 24px;
  }
- &__menu{
+}
+&__menu{
     text-align: center;
     @media only screen and (min-width : 992px) {
         display: flex;
         justify-content: space-between;
         padding-top: 16px;
         padding-bottom: 20px;
-        border-bottom: 1px solid #fff;
+        // border-bottom: 1px solid #fff;
     }
     @media only screen and (min-width : 1240px) {
       margin-left: 28px;
@@ -150,9 +149,9 @@ html, body{
         margin: 0;
     }
     a{
-        font-size: 18px;
+        font-size: 21px;
         text-transform: uppercase;
-        color: white;
+        color: #3B3B3B;
         font-family: "HelveticaNeueCyr-Thin";
     }
 }
@@ -620,4 +619,62 @@ html, body{
     font-size: 18px;
     color: #878787;
     padding: 48px 0px 10px;
+}
+
+/* checkbox costomize
+=================================*/
+.checkbox {
+    display: none;
+}
+ .checkbox-box{
+    max-width: 464px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    background:rgba(#fff, 0.7);
+    margin-top: 50px;
+    .txt-check{
+         font-family: "HelveticaNeueCyr-Light";
+         color:#B04E55;
+         font-size: 14px;
+         text-transform: uppercase;
+         @media only screen and (min-width : 768px) {
+            font-size: 16px;
+         }
+    }
+ }
+/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
+.checkbox-custom {
+    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+    width: 25px;             /* Обязательно задаем ширину */
+    height: 25px;            /* Обязательно задаем высоту */
+    border: 2px solid #fff;
+    background:none;
+    border-radius: 5px;
+    margin-top: -6px;
+    margin-right: 7px;
+    cursor:pointer;
+}
+ 
+/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+.checkbox:checked + .checkbox-custom::before {
+    content: "";             /* Добавляем наш псевдоэлемент */
+    display: block;          /* Делаем его блочным элементом */
+    position: absolute;      /* Позиционируем его абсолютным образом */
+ 
+    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    top: -9px;
+    right: 2px;
+    bottom: 2px;
+    left: -2px;
+    width: 32px;
+    height: 30px;
+    background: url(../img/galka.png) no-repeat;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+    border-radius: 2px;
 }
