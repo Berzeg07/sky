@@ -377,7 +377,8 @@
 					<label>
 						<input class="checkbox" type="checkbox" name="checkbox-test" checked>
 						<span class="checkbox-custom"></span>
-						<span class="txt-check">Согласны с политикой конфидециальности</span>
+						<span class="txt-check">Я подтверждаю что ознакомлен и согласен с<br/>
+							политикой кофеденциальности</span>
 						<span class="label"></span>
 					</label>
 				</div>

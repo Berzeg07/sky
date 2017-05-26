@@ -557,16 +557,14 @@ html, body {
   display: none; }
 
 .checkbox-box {
-  max-width: 464px;
+  max-width: 665px;
   margin: 0 auto;
-  padding: 10px 10px;
-  background: rgba(255, 255, 255, 0.7);
-  margin-top: 50px; }
+  margin-top: 10px;
+  text-align: left; }
   .checkbox-box .txt-check {
     font-family: "HelveticaNeueCyr-Light";
-    color: #B04E55;
-    font-size: 14px;
-    text-transform: uppercase; }
+    color: #fff;
+    font-size: 16px; }
     @media only screen and (min-width: 768px) {
       .checkbox-box .txt-check {
         font-size: 16px; } }
@@ -575,14 +573,14 @@ html, body {
 .checkbox-custom {
   position: relative;
   /* ╨Ю╨▒╤П╨╖╨░╤В╨╡╨╗╤М╨╜╨╛ ╨╖╨░╨┤╨░╨╡╨╝, ╤З╤В╨╛╨▒╤Л ╨╝╤Л ╨╝╨╛╨│╨╗╨╕ ╨░╨▒╤Б╨╛╨╗╤О╤В╨╜╤Л╨╝ ╨╛╨▒╤А╨░╨╖╨╛╨╝ ╨┐╨╛╨╖╨╕╤Ж╨╕╨╛╨╜╨╕╤А╨╛╨▓╨░╤В╤М ╨┐╤Б╨╡╨▓╨┤╨╛╤Н╨╗╨╡╨╝╨╡╨╜╤В ╨▓╨╜╤О╤В╤А╨╕ ╨╜╨░╤И╨╡╨│╨╛ ╨║╨░╤Б╤В╨╛╨╝╨╜╨╛╨│╨╛ ╤З╨╡╨║╨▒╨╛╨║╤Б╨░ */
-  width: 25px;
+  width: 14px;
   /* ╨Ю╨▒╤П╨╖╨░╤В╨╡╨╗╤М╨╜╨╛ ╨╖╨░╨┤╨░╨╡╨╝ ╤И╨╕╤А╨╕╨╜╤Г */
-  height: 25px;
+  height: 13px;
   /* ╨Ю╨▒╤П╨╖╨░╤В╨╡╨╗╤М╨╜╨╛ ╨╖╨░╨┤╨░╨╡╨╝ ╨▓╤Л╤Б╨╛╤В╤Г */
   border: 2px solid #fff;
   background: none;
-  border-radius: 5px;
-  margin-top: -6px;
+  border-radius: 10em;
+  margin-top: -42px;
   margin-right: 7px;
   cursor: pointer; }
 
@@ -601,14 +599,14 @@ html, body {
   position: absolute;
   /* ╨Я╨╛╨╖╨╕╤Ж╨╕╨╛╨╜╨╕╤А╤Г╨╡╨╝ ╨╡╨│╨╛ ╨░╨▒╤Б╨╛╨╗╤О╤В╨╜╤Л╨╝ ╨╛╨▒╤А╨░╨╖╨╛╨╝ */
   /* ╨Ч╨░╨┤╨░╨╡╨╝ ╤А╨░╤Б╤Б╤В╨╛╤П╨╜╨╕╨╡ ╨╛╤В ╨▓╨╡╤А╤Е╨╜╨╡╨╣, ╨┐╤А╨░╨▓╨╛╨╣, ╨╜╨╕╨╢╨╜╨╡╨╣ ╨╕ ╨╗╨╡╨▓╨╛╨╣ ╨│╤А╨░╨╜╨╕╤Ж╤Л */
-  top: -9px;
+  top: 0px;
   right: 2px;
   bottom: 2px;
-  left: -2px;
-  width: 32px;
-  height: 30px;
-  background: url(../img/galka.png) no-repeat;
+  left: 0px;
+  height: 10px;
+  width: 10px;
+  background: #2579BF;
   /* ╨Ф╨╛╨▒╨░╨▓╨╗╤П╨╡╨╝ ╤Д╨╛╨╜. ╨Х╤Б╨╗╨╕ ╤В╤А╨╡╨▒╤Г╨╡╤В╤Б╤П, ╨╝╨╛╨╢╨╡╤В╨╡ ╨┐╨╛╤Б╤В╨░╨▓╨╕╤В╤М ╤Б╤О╨┤╨░ ╨║╨░╤А╤В╨╕╨╜╨║╤Г ╨▓ ╨▓╨╕╨┤╨╡ "╨│╨░╨╗╨╛╤З╨║╨╕", ╨║╨╛╤В╨╛╤А╨░╤П ╨▒╤Г╨┤╨╡╤В ╤Б╨╕╨╝╨▓╨╛╨╗╨╕╨╖╨╕╤А╨╛╨▓╨░╤В╤М, ╤З╤В╨╛ ╤З╨╡╨║╨▒╨╛╨║╤Б ╨╛╤В╨╝╨╡╤З╨╡╨╜ */
-  border-radius: 2px; }
+  border-radius: 10em; }
 
 /*# sourceMappingURL=style.css.map */

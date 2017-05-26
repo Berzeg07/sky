@@ -152,85 +152,86 @@
 					<label>
 						<input class="checkbox" type="checkbox" name="checkbox-test" checked>
 						<span class="checkbox-custom"></span>
-						<span class="txt-check">Согласны с политикой конфидециальности</span>
-						<span class="label"></span>
-					</label>
+						<span class="txt-check">Я подтверждаю что ознакомлен и согласен с<br/>
+							политикой кофеденциальности</span>
+							<span class="label"></span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+		<div class="form-footer__wrap">
+			<div class="container">
+				<div class="form-footer">
+					<h2>Пожалуйста, не стесняйтесь написать<br/>
+						нам в любое время дня и ночи:<br/>
+						<b>8 800 800 80 80</b> 
+					</h2>
+					<div class="form-footer__box">
+						<form class="form1" action="#" method="post">
+							<input class="footer-input" name="email" type="email" placeholder="Ваш email" required="">
+							<input class="footer-input phone" name="phone" type="text" placeholder="Ваш телефон">
+							<input class="footer-submit" name="submit" type="submit" value="оставить заявку">
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>	
 
-	<div class="form-footer__wrap">
 		<div class="container">
-			<div class="form-footer">
-				<h2>Пожалуйста, не стесняйтесь написать<br/>
-					нам в любое время дня и ночи:<br/>
-					<b>8 800 800 80 80</b> 
-				</h2>
-				<div class="form-footer__box">
-					<form class="form1" action="#" method="post">
-						<input class="footer-input" name="email" type="email" placeholder="Ваш email" required="">
-						<input class="footer-input phone" name="phone" type="text" placeholder="Ваш телефон">
-						<input class="footer-submit" name="submit" type="submit" value="оставить заявку">
-					</form>
+			<div class="social">
+				<ul>
+					<li><a href="#"><img src="img/tube.png" alt=""></a></li>
+					<li><a href="#"><img src="img/face.png" alt=""></a></li>
+					<li><a href="#"><img src="img/twit.png" alt=""></a></li>
+					<li><a href="#"><img src="img/in.png" alt=""></a></li>
+				</ul>
+				<a class="privacy" href="#">Политика конфидециальности</a>
+			</div>
+			<div class="copyright">
+				<div class="copyright-box_left"><img src="img/img1.png" alt=""></div>
+				<div class="copyright-box_right">
+					<p>
+						Copyright © Webrazavr. 2017. All rights reserved<br/>
+						Любое использование материалов, представленных на сайте,<br/>
+						разрешено только с письменного согласия владельца. 
+					</p>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="container">
-		<div class="social">
-			<ul>
-				<li><a href="#"><img src="img/tube.png" alt=""></a></li>
-				<li><a href="#"><img src="img/face.png" alt=""></a></li>
-				<li><a href="#"><img src="img/twit.png" alt=""></a></li>
-				<li><a href="#"><img src="img/in.png" alt=""></a></li>
-			</ul>
-			<a class="privacy" href="#">Политика конфидециальности</a>
-		</div>
-		<div class="copyright">
-			<div class="copyright-box_left"><img src="img/img1.png" alt=""></div>
-			<div class="copyright-box_right">
-				<p>
-					Copyright © Webrazavr. 2017. All rights reserved<br/>
-					Любое использование материалов, представленных на сайте,<br/>
-					разрешено только с письменного согласия владельца. 
-				</p>
+		<!-- JS_BLOCK -->
+		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+		<script src="libs/owl.carousel/owl.carousel.js"></script>
+		<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script src="js/responsiveTabs.js"></script>
+		<script src="js/jquery.maskedinput.min.js"></script>
+		<script src="js/fonts.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/jquery.cssslider.js"></script>
+		<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+		<script>
+
+		</script>
+
+		<div id="mask"></div>
+		<div id="thanks" class="window">
+			<div class="form-wrap-main">
+				<div class="dd-close">X</div>
+				<div class="form-title">
+					Спасибо за заявку!
+				</div>
+				<div class="dd-form-txt">
+					Наш менеджер свяжется с вами в ближайшее время!
+				</div>
 			</div>
 		</div>
-	</div>
+		<a href="#thanks" name="modal"></a>
 
-	<!-- JS_BLOCK -->
-	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script src="js/responsiveTabs.js"></script>
-	<script src="js/jquery.maskedinput.min.js"></script>
-	<script src="js/fonts.js"></script>
-	<script src="js/common.js"></script>
-	<script src="js/swiper.min.js"></script>
-	<script src="js/jquery.cssslider.js"></script>
-	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-	
-
-	<script>
-		
-	</script>
-
-	<div id="mask"></div>
-	<div id="thanks" class="window">
-		<div class="form-wrap-main">
-			<div class="dd-close">X</div>
-			<div class="form-title">
-				Спасибо за заявку!
-			</div>
-			<div class="dd-form-txt">
-				Наш менеджер свяжется с вами в ближайшее время!
-			</div>
-		</div>
-	</div>
-	<a href="#thanks" name="modal"></a>
-
-</body>
-</html>
+	</body>
+	</html>
