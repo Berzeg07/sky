@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/animated-slider.css" />
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 	<style>
 		.swiper-container {
 			width: 100%;
@@ -79,288 +80,63 @@
 	</div>
 
 	
-	<div class="container dd">
-		<div class="row">
-
-			<div class="col-xs-12 col-sm-12 col-md-3 no-padding">
-				<a href="#">
-					<div class="block-logo block-logo_1">
-						<img class="img-responsive" src="img/im1.jpg" alt="">
-						<div class="block-logo__hover">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="block-logo block-logo_2">
-						<img class="img-responsive" src="img/im2.jpg" alt="">
-						<div class="block-logo__hover">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="block-logo block-logo_2">
-						<img class="img-responsive" src="img/im2.jpg" alt="">
-						<div class="block-logo__hover">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-			</div>
-
-			<!-- 2 ===================== -->
-
-			<div class="col-xs-12 col-sm-12 col-md-3 no-padding">
-				<a href="#">
-					<div class="block-logo block-logo_2">
-						<img class="img-responsive" src="img/im2.jpg" alt="">
-						<div class="block-logo__hover">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="block-logo block-logo_1">
-						<img class="img-responsive" src="img/im1.jpg" alt="">
-						<div class="block-logo__hover">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="block-logo block-logo_3">
-						<img class="img-responsive" src="img/im3.jpg" alt="">
-						<div class="block-logo__hover block-logo__hover_3">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="block-logo block-logo_3">
-						<img class="img-responsive" src="img/im3.jpg" alt="">
-						<div class="block-logo__hover block-logo__hover_3">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-			</div>
-
-			<!-- 3 =================== -->
-
-			<div class="col-xs-12 col-sm-12 col-md-3 no-padding">
-				<a href="#">
-					<div class="block-logo block-logo_2">
-						<img class="img-responsive" src="img/im4.jpg" alt="">
-						<div class="block-logo__hover">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="block-logo block-logo_1">
-						<img class="img-responsive" src="img/im1.jpg" alt="">
-						<div class="block-logo__hover">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="block-logo block-logo_3">
-						<img class="img-responsive" src="img/im5.jpg" alt="">
-						<div class="block-logo__hover block-logo__hover_3">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-				<a href="#">
-					<div class="block-logo block-logo_3">
-						<img class="img-responsive" src="img/im5.jpg" alt="">
-						<div class="block-logo__hover block-logo__hover_3">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-			</div>
-			
-			<!-- 4 ===================== -->
-
-			<div class="col-xs-12 col-sm-12 col-md-3 no-padding">
-				<a href="#">
-					<div class="block-logo block-logo_4">
-						<img class="img-responsive" src="img/im6.jpg" alt="">
-						<div class="block-logo__hover block-logo__hover_3">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-
-				<a href="#">
-					<div class="block-logo block-logo_2">
-						<img class="img-responsive" src="img/im4.jpg" alt="">
-						<div class="block-logo__hover">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-
-				<a href="#">
-					<div class="block-logo block-logo_2">
-						<img class="img-responsive" src="img/im4.jpg" alt="">
-						<div class="block-logo__hover">
-							<p>Описание товара в карточке под соответствующей картинкой рассчитаны обычно на 500-800 знаков.</p>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
-
-	<!-- Swiper -->
 	<div class="container">
-		<h2 class="h2_slider">Привелегии</h2>
-		<div class="swiper-container">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide">
-					<img src="img/sl1.jpg" alt="">
-					<div class="slider-txt">
-						<span>Месяц тест-драйва мазерати</span>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<img src="img/sl1.jpg" alt="">
-					<div class="slider-txt">
-						<span>Месяц тест-драйва мазерати</span>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<img src="img/sl1.jpg" alt="">
-					<div class="slider-txt">
-						<span>Месяц тест-драйва мазерати</span>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<img src="img/sl1.jpg" alt="">
-					<div class="slider-txt">
-						<span>Месяц тест-драйва мазерати</span>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<img src="img/sl1.jpg" alt="">
-					<div class="slider-txt">
-						<span>Месяц тест-драйва мазерати</span>
-					</div>
-				</div>
-				<div class="swiper-slide">
-					<img src="img/sl1.jpg" alt="">
-					<div class="slider-txt">
-						<span>Месяц тест-драйва мазерати</span>
-					</div>
+		<div class="partner-box">
+			<div class="brad-crump">
+				<a href="#">Все партнеры ></a><span>Waegenr</span>
+			</div>
+			<div class="partner-box__img">
+				<img src="img/im1.jpg" alt="">
+			</div>
+			<div class="partner-box__txt">
+				<p>
+					Внутренняя страница сайта представляет собой контент. Контент - в общем понимании это прежде всего тексты, которые являются определяющим фактором в продвижении Вашего сайта. Сайт должен быть наполнен (идеями, ключевыми фразами, текстами, инструментами, изображения, видеороликами) и только после этого он начинает из себя представлять что-то отличное от пустого места и появляется предмет для продвижения.
+				</p>
+
+				<p>
+					Чем больше слов в ключевой фразе, тем менее конкурентным является этот запрос и быстрее выводит сайт к верхним позициям. Для молодого сайта нужно выбирать слова в промежутке от 50 до 200 позиции поисковика. Чем ниже цифра, тем слабее конкуренция сайта, что поможет быстрому продвижению информации.
+				</p>
+
+				<p>
+					Три-пять страниц с текстом в индексе поисковых систем — это еще не контент. Контента должно быть много. Почему? В выбранной вами нише существует масса вопросов, которые обычно задают пользователи. В идеале ваш сайт должен отвечать на все из них или хотя бы на основные. Тогда с ранжированием дело будет обстоять значительно лучше. А как можно ответить на их вопросы? Наверное, предложить им текст.
+				</p>
+
+				<p>
+					Причем он должен быть заточен под интересы пользователя, а не под поисковые системы (без переспама, со смыслом, со структурой, с хорошим изложением и одновременно стимулирующий к конверсионному действию на вашем сайте -заказ, отправка запроса, обращение и тому подобное). Другими словами, он должен отвечать потребностям вашей целевой аудитории.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+				<div class="img-box"><a rel="group" href="img/img1.jpg" ><img src="img/img1.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img2.jpg"><img src="img/img2.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img1.jpg"><img src="img/img1.jpg" alt=""></a></div>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+				<div class="img-box"><a rel="group" href="img/img3.jpg"><img src="img/img3.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img4.jpg"><img src="img/img4.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img3.jpg"><img src="img/img3.jpg" alt=""></a></div>
+
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+				<div class="img-box"><a rel="group" href="img/img5.jpg"><img src="img/img5.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img6.jpg"><img src="img/img6.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img7.jpg"><img src="img/img7.jpg" alt=""></a></div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="img-text">
+				<div class="txt-absolute">
+					<p>
+						Короткие текста являются коммерческими публикациями. Для коротких статей идеально подходит чеховский принцип «краткость – сестра таланта». Цель это привлечь клиентов яркими цепкими фразами, выгодными и емкими для восприятия.
+					</p>
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<!-- end slider -->
-	<div class="slider2-wrap">
-		<div class="container">
-			<div class="ah-slider">
-				<div class="container container_style2">
-					<div class="choose_slider">
-						<div id="btn_prev2"></div>
-						<div class="choose_slider_items">
-							<ul id="mySlider2">
-								<li class="current_item">
-									<div class="current_item1">
-										<div class="ah-slideimg">
-											<img src="img/plane.jpg" alt="ah-slider1">
-										</div>
-										<div class="play">
-											<a href="#"><img src="img/play.png" alt=""></a>
-										</div>
-										<div class="ah-current-wrapp">
-											<span class="item-title">Что нас ждет?</span>
-										</div>
-									</div>
-								</li>
-								<li class="current_item">
-									<div class="current_item1">
-										<div class="ah-slideimg">
-											<img src="img/plane.jpg" alt="ah-slider2">
-										</div>
-										<div class="play">
-											<a href="#"><img src="img/play.png" alt=""></a>
-										</div>
-										<div class="ah-current-wrapp">
-											<span class="item-title">Последние новости</span>
-										</div>
-									</div>			    
-								</li>
-								<li class="current_item">
-									<div class="current_item1">
-										<div class="ah-slideimg">
-											<img src="img/plane.jpg" alt="ah-slider3">
-										</div>
-										<div class="play">
-											<a href="#"><img src="img/play.png" alt=""></a>
-										</div>
-										<div class="ah-current-wrapp">
-											<span class="item-title">Что нас ждет?</span>
-										</div>
-									</div>			    
-								</li>
-								<li class="current_item">
-									<div class="current_item1">
-										<div class="ah-slideimg">
-											<img src="img/plane.jpg" alt="ah-slider4">
-										</div>
-										<div class="play">
-											<a href="#"><img src="img/play.png" alt=""></a>
-										</div>
-										<div class="ah-current-wrapp">
-											<span class="item-title">Что нас ждет?</span>
-										</div>
-									</div>                               
-								</li>
-								<li class="current_item">
-									<div class="current_item1">
-										<div class="ah-slideimg">
-											<img src="img/plane.jpg" alt="ah-slider5">
-										</div>
-										<div class="play">
-											<a href="#"><img src="img/play.png" alt=""></a>
-										</div>
-										<div class="ah-current-wrapp">
-											<span class="item-title">Что нас ждет?</span>
-										</div>
-									</div>                               
-								</li>
-								<li class="current_item">
-									<div class="current_item1">
-										<div class="ah-slideimg">
-											<img src="img/plane.jpg" alt="ah-slider1">
-										</div>
-										<div class="play">
-											<a href="#"><img src="img/play.png" alt=""></a>
-										</div>
-										<div class="ah-current-wrapp">
-											<span class="item-title">Что нас ждет?</span>
-										</div>
-									</div>                                
-								</li>
-							</ul>
-						</div>
-						<div id="btn_next2"></div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
 	</div>
 	
-	<div class="enter-wrap">
+	<div class="enter-wrap enter-wrap__partner">
 		<div class="container">
 			<div class="enter__message">
 				<h2>Вступайте в клуб Nebo Family</h2>
@@ -397,11 +173,12 @@
 	<div class="container">
 		<div class="social">
 			<ul>
-				<li><a href="#"><img src="img/vk.png" alt=""></a></li>
+				<li><a href="#"><img src="img/tube.png" alt=""></a></li>
 				<li><a href="#"><img src="img/face.png" alt=""></a></li>
 				<li><a href="#"><img src="img/twit.png" alt=""></a></li>
 				<li><a href="#"><img src="img/in.png" alt=""></a></li>
 			</ul>
+			<a class="privacy" href="#">Политика конфидециальности</a>
 		</div>
 		<div class="copyright">
 			<div class="copyright-box_left"><img src="img/img1.png" alt=""></div>
@@ -418,32 +195,34 @@
 	<!-- JS_BLOCK -->
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
-	<!-- <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script src="js/responsiveTabs.js"></script> -->
+	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/fonts.js"></script>
 	<script src="js/common.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/jquery.cssslider.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	
 
 	<script>
 		
-</script>
+	</script>
 
-<div id="mask"></div>
-<div id="thanks" class="window">
-	<div class="form-wrap-main">
-		<div class="dd-close">X</div>
-		<div class="form-title">
-			Спасибо за заявку!
-		</div>
-		<div class="dd-form-txt">
-			Наш менеджер свяжется с вами в ближайшее время!
+	<div id="mask"></div>
+	<div id="thanks" class="window">
+		<div class="form-wrap-main">
+			<div class="dd-close">X</div>
+			<div class="form-title">
+				Спасибо за заявку!
+			</div>
+			<div class="dd-form-txt">
+				Наш менеджер свяжется с вами в ближайшее время!
+			</div>
 		</div>
 	</div>
-</div>
-<a href="#thanks" name="modal"></a>
+	<a href="#thanks" name="modal"></a>
 
 </body>
 </html>

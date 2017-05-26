@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/animated-slider.css" />
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 	<style>
 		.swiper-container {
 			width: 100%;
@@ -397,11 +398,12 @@
 	<div class="container">
 		<div class="social">
 			<ul>
-				<li><a href="#"><img src="img/vk.png" alt=""></a></li>
+				<li><a href="#"><img src="img/tube.png" alt=""></a></li>
 				<li><a href="#"><img src="img/face.png" alt=""></a></li>
 				<li><a href="#"><img src="img/twit.png" alt=""></a></li>
 				<li><a href="#"><img src="img/in.png" alt=""></a></li>
 			</ul>
+			<a class="privacy" href="#">Политика конфидециальности</a>
 		</div>
 		<div class="copyright">
 			<div class="copyright-box_left"><img src="img/img1.png" alt=""></div>
@@ -426,24 +428,23 @@
 	<script src="js/common.js"></script>
 	<script src="js/swiper.min.js"></script>
 	<script src="js/jquery.cssslider.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 
-	<script>
-		
-</script>
 
-<div id="mask"></div>
-<div id="thanks" class="window">
-	<div class="form-wrap-main">
-		<div class="dd-close">X</div>
-		<div class="form-title">
-			Спасибо за заявку!
-		</div>
-		<div class="dd-form-txt">
-			Наш менеджер свяжется с вами в ближайшее время!
+
+	<div id="mask"></div>
+	<div id="thanks" class="window">
+		<div class="form-wrap-main">
+			<div class="dd-close">X</div>
+			<div class="form-title">
+				Спасибо за заявку!
+			</div>
+			<div class="dd-form-txt">
+				Наш менеджер свяжется с вами в ближайшее время!
+			</div>
 		</div>
 	</div>
-</div>
-<a href="#thanks" name="modal"></a>
+	<a href="#thanks" name="modal"></a>
 
 </body>
 </html>
