@@ -609,4 +609,48 @@ html, body {
   /* ╨Ф╨╛╨▒╨░╨▓╨╗╤П╨╡╨╝ ╤Д╨╛╨╜. ╨Х╤Б╨╗╨╕ ╤В╤А╨╡╨▒╤Г╨╡╤В╤Б╤П, ╨╝╨╛╨╢╨╡╤В╨╡ ╨┐╨╛╤Б╤В╨░╨▓╨╕╤В╤М ╤Б╤О╨┤╨░ ╨║╨░╤А╤В╨╕╨╜╨║╤Г ╨▓ ╨▓╨╕╨┤╨╡ "╨│╨░╨╗╨╛╤З╨║╨╕", ╨║╨╛╤В╨╛╤А╨░╤П ╨▒╤Г╨┤╨╡╤В ╤Б╨╕╨╝╨▓╨╛╨╗╨╕╨╖╨╕╤А╨╛╨▓╨░╤В╤М, ╤З╤В╨╛ ╤З╨╡╨║╨▒╨╛╨║╤Б ╨╛╤В╨╝╨╡╤З╨╡╨╜ */
   border-radius: 10em; }
 
+/* ╨и╤В╨╛╤А╨║╨╕
+=================================*/
+.container__bg {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 9999; }
+  .container__bg_box {
+    position: relative;
+    height: 100vh;
+    background: rgba(78, 151, 197, 0.5);
+    outline: 1px solid red; }
+  .container__bg_left {
+    float: left;
+    width: 50%;
+    animation: open 5s alternate; }
+  .container__bg_right {
+    float: right;
+    width: 50%;
+    animation: openright 5s alternate; }
+
+@keyframes open {
+  0% {
+    margin-left: 0px; }
+  75% {
+    margin-left: -200px; }
+  95% {
+    margin-left: -100%; }
+  100% {
+    display: none; } }
+@keyframes openright {
+  0% {
+    margin-right: 0px; }
+  75% {
+    margin-right: -200px; }
+  95% {
+    margin-right: -100%; }
+  100% {
+    display: none; } }
+
 /*# sourceMappingURL=style.css.map */
