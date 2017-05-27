@@ -31,8 +31,16 @@
 <body>
 
 	<div class="container__bg">
-		<div class="container__bg_box container__bg_left"></div>
-		<div class="container__bg_box container__bg_right"></div>
+		<div class="container__bg_box container__bg_left">
+			<div class="planes planes_left">
+				<img src="img/left-plane.png" alt="">
+			</div>
+		</div>
+		<div class="container__bg_box container__bg_right">
+			<div class="planes planes_right">
+				<img src="img/right-plane.png" alt="">
+			</div>
+		</div>
 	</div>
 
 	<div class="header__wrap">

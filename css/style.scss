@@ -708,6 +708,17 @@ html, body{
         animation: openright 5s alternate;
     }
 }
+.planes{
+    position: absolute;
+    &_left{
+        right: 0;
+        top:450px;
+    }
+    &_right{
+        top:550px;
+        left:50px;
+    }
+}
 
 @keyframes open {
   0%  {

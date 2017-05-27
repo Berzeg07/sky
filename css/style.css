@@ -634,6 +634,15 @@ html, body {
     width: 50%;
     animation: openright 5s alternate; }
 
+.planes {
+  position: absolute; }
+  .planes_left {
+    right: 0;
+    top: 450px; }
+  .planes_right {
+    top: 550px;
+    left: 50px; }
+
 @keyframes open {
   0% {
     margin-left: 0px; }
