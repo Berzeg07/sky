@@ -624,8 +624,7 @@ html, body {
     position: relative;
     height: 100vh;
     background: rgba(78, 151, 197, 0.5);
-    opacity: 0;
-    outline: 1px solid red; }
+    opacity: 0; }
   .container__bg_left {
     float: left;
     width: 50%;
