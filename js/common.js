@@ -30,7 +30,7 @@ $(document).ready(function(){
 
     (function($){
         $(window).load(function(){
-            
+
             $("body").mCustomScrollbar({
                 theme:"dark-thin"
             });
@@ -122,5 +122,12 @@ $(document).ready(function(){
     	});
     	func1();
     });
+
+
+    $('.container__bg_box').on('animationend webkitAnimationEnd oAnimationEnd', function () {
+        $('.container__bg').hide(100);
+        $('.container__bg_box').off('animationend webkitAnimationEnd oAnimationEnd');
+    });
+
 
 });//END READY
