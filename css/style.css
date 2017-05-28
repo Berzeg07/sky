@@ -650,22 +650,116 @@ span {
   0% {
     margin-left: 0px;
     opacity: 1; }
-  75% {
+  5% {
+    margin-left: -40px;
+    opacity: 1; }
+  10% {
+    margin-left: -80px;
+    opacity: 1; }
+  15% {
+    margin-left: -120px;
+    opacity: 1; }
+  20% {
+    margin-left: -140px;
+    opacity: 1; }
+  25% {
+    margin-left: -160px;
+    opacity: 1; }
+  30% {
     margin-left: -200px;
     opacity: 1; }
+  35% {
+    margin-left: -240px;
+    opacity: 1; }
+  40% {
+    margin-left: -280px;
+    opacity: 1; }
+  45% {
+    margin-left: -320px;
+    opacity: 1; }
+  50% {
+    margin-left: -360px;
+    opacity: 1; }
+  55% {
+    margin-left: -400px;
+    opacity: 1; }
+  60% {
+    margin-left: -440px;
+    opacity: 1; }
+  65% {
+    margin-left: -480px;
+    opacity: 1; }
+  70% {
+    margin-left: -520px;
+    opacity: 1; }
+  75% {
+    margin-left: -560px; }
+  80% {
+    margin-left: -600px; }
+  85% {
+    margin-left: -640px; }
+  90% {
+    margin-left: -680px; }
   95% {
-    margin-left: -100%; }
+    margin-left: -720px; }
   100% {
     display: none; } }
 @keyframes openright {
   0% {
     margin-right: 0px;
     opacity: 1; }
-  75% {
+  5% {
+    margin-right: -40px;
+    opacity: 1; }
+  10% {
+    margin-right: -80px;
+    opacity: 1; }
+  15% {
+    margin-right: -120px;
+    opacity: 1; }
+  20% {
+    margin-right: -140px;
+    opacity: 1; }
+  25% {
+    margin-right: -160px;
+    opacity: 1; }
+  30% {
     margin-right: -200px;
     opacity: 1; }
+  35% {
+    margin-right: -240px;
+    opacity: 1; }
+  40% {
+    margin-right: -280px;
+    opacity: 1; }
+  45% {
+    margin-right: -320px;
+    opacity: 1; }
+  50% {
+    margin-right: -360px;
+    opacity: 1; }
+  55% {
+    margin-right: -400px;
+    opacity: 1; }
+  60% {
+    margin-right: -440px;
+    opacity: 1; }
+  65% {
+    margin-right: -480px;
+    opacity: 1; }
+  70% {
+    margin-right: -520px;
+    opacity: 1; }
+  75% {
+    margin-right: -560px; }
+  80% {
+    margin-right: -600px; }
+  85% {
+    margin-right: -640px; }
+  90% {
+    margin-right: -680px; }
   95% {
-    margin-right: -100%; }
+    margin-right: -720px; }
   100% {
     display: none; } }
 
