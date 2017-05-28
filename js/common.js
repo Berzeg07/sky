@@ -28,15 +28,15 @@ $(document).ready(function(){
     // конец слайдер
 
 
-    (function($){
-        $(window).load(function(){
+    // (function($){
+    //     $(window).load(function(){
 
-            $("body").mCustomScrollbar({
-                theme:"dark-thin"
-            });
+    //         $("body").mCustomScrollbar({
+    //             theme:"dark-thin"
+    //         });
             
-        });
-    })(jQuery);
+    //     });
+    // })(jQuery);
 
     $("a[rel=group]").fancybox({
         'transitionIn' : 'none',

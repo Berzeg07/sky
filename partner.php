@@ -107,23 +107,23 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-				<div class="img-box"><a rel="group" href="img/img1.jpg" ><img src="img/img1.jpg" alt=""></a></div>
-				<div class="img-box"><a rel="group" href="img/img2.jpg"><img src="img/img2.jpg" alt=""></a></div>
-				<div class="img-box"><a rel="group" href="img/img1.jpg"><img src="img/img1.jpg" alt=""></a></div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="img-box"><a rel="group" href="img/img1.jpg" ><img class="img-responsive" src="img/img1.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img2.jpg"><img class="img-responsive" src="img/img2.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img1.jpg"><img class="img-responsive" src="img/img1.jpg" alt=""></a></div>
 			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-				<div class="img-box"><a rel="group" href="img/img3.jpg"><img src="img/img3.jpg" alt=""></a></div>
-				<div class="img-box"><a rel="group" href="img/img4.jpg"><img src="img/img4.jpg" alt=""></a></div>
-				<div class="img-box"><a rel="group" href="img/img3.jpg"><img src="img/img3.jpg" alt=""></a></div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="img-box"><a rel="group" href="img/img3.jpg"><img class="img-responsive" src="img/img3.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img4.jpg"><img class="img-responsive" src="img/img4.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img3.jpg"><img class="img-responsive" src="img/img3.jpg" alt=""></a></div>
 
 			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-				<div class="img-box"><a rel="group" href="img/img5.jpg"><img src="img/img5.jpg" alt=""></a></div>
-				<div class="img-box"><a rel="group" href="img/img6.jpg"><img src="img/img6.jpg" alt=""></a></div>
-				<div class="img-box"><a rel="group" href="img/img7.jpg"><img src="img/img7.jpg" alt=""></a></div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="img-box"><a rel="group" href="img/img5.jpg"><img class="img-responsive" src="img/img5.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img6.jpg"><img class="img-responsive" src="img/img6.jpg" alt=""></a></div>
+				<div class="img-box"><a rel="group" href="img/img7.jpg"><img class="img-responsive" src="img/img7.jpg" alt=""></a></div>
 			</div>
 			<div class="clearfix"></div>
 			<div class="img-text">

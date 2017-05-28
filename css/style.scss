@@ -45,7 +45,9 @@ span{
     clear:both;
 }
 html, body{ 
+   @media only screen and (min-width : 992px) {
     height: 100%; 
+}
 }
 .mCSB_inside > .mCSB_container{
     margin-right: 0 !important;
@@ -103,11 +105,11 @@ html, body{
             color: #3B3B3B;
             margin-left: 17px;
             &:hover{
-             color: #075aa0;
-         }
-     }   
- }
- &__tel{
+               color: #075aa0;
+           }
+       }   
+   }
+   &__tel{
     text-align: center;
     @media only screen and (min-width : 992px) {
         text-align: left;
@@ -123,12 +125,12 @@ html, body{
         }
     }
     span{
-       font-family: "HelveticaNeueCyr-Roman";
-       font-size: 27px;
-       color: #3B3B3B;
-       background:url(../img/tel2.jpg) no-repeat left center;
-       padding-left: 24px;
-   }
+     font-family: "HelveticaNeueCyr-Roman";
+     font-size: 27px;
+     color: #3B3B3B;
+     background:url(../img/tel2.jpg) no-repeat left center;
+     padding-left: 24px;
+ }
 }
 &__menu{
     text-align: center;
@@ -183,8 +185,8 @@ html, body{
 
 
 .block-logo{
-    display: inline-block;  
-    width: 100%;
+    // display: inline-block;  
+    // width: 100%;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -201,9 +203,9 @@ html, body{
     top:0px;
     left:50%;
     transform: translateX(-50%); 
-
     background: rgba(200,200,200,0.7);
     width: 288px;
+    // width: 100%;
     height: 100%;
     color: #fff;
     opacity: 0;
@@ -254,8 +256,8 @@ html, body{
     }   
 }
 .block-logo_1{
-   height: 262px;
-   @media only screen and (min-width : 992px) {
+ height: 262px;
+ @media only screen and (min-width : 992px) {
     height: 222px;
     .block-logo__hover{
         p{
@@ -301,8 +303,8 @@ html, body{
     }
 }
 .block-logo_4{
-   height: 262px;
-   @media only screen and (min-width : 992px) {
+ height: 262px;
+ @media only screen and (min-width : 992px) {
     height: 222px;
 }
 @media only screen and (min-width : 1240px) {
@@ -369,9 +371,13 @@ html, body{
 .slider2-wrap{
     position: relative;
     background:url(../img/sky2.png) no-repeat top center;
-    height: 973px;
-    padding-top: 230px;
+    height: 600px;
+    // padding-top: 230px;
     z-index: 9999;
+     @media only screen and (min-width : 992px) {
+        padding-top: 230px;
+        height: 973px;
+     }
 }
 .enter__message{
     max-width: 640px;
@@ -403,13 +409,15 @@ html, body{
     font-size: 18px;
     font-family: "HelveticaNeueCyr-Light";
     line-height: 40px;
-    float: left;
-    width: calc(98% - 198px);
     margin-top: 39px;
+    width: 100%;
+    @media only screen and (min-width : 992px) {
+        float: left;
+        width: calc(98% - 198px);
+    }
 }
 .enter-submit{
     margin-top: 39px;
-    float: right;
     width: 198px;
     outline: none;
     background:transparent;
@@ -420,9 +428,15 @@ html, body{
     text-transform: uppercase;
     font-family: "HelveticaNeueCyr-Light";
     cursor:pointer;
+    @media only screen and (min-width : 992px) {
+        float: right;
+    }
 }
 .form-footer__wrap{
- padding-top: 162px;
+   padding-top: 78px;
+    @media only screen and (min-width : 992px) {
+        padding-top: 162px;
+    }
 }
 .form-footer{
     text-align: center;
@@ -472,10 +486,10 @@ html, body{
         width: 100%;
         margin-top: 15px;
         &:hover{
-         background-color: #bee3ff;
-         background-image: linear-gradient(to bottom, transparent 0%, rgba(30, 184, 255, 0.6) 100%);
-     }
- }
+           background-color: #bee3ff;
+           background-image: linear-gradient(to bottom, transparent 0%, rgba(30, 184, 255, 0.6) 100%);
+       }
+   }
 }
 .social{
     width: 226px;
@@ -589,27 +603,31 @@ html, body{
     &__txt{
         text-align: center;
         p{
-         font-family: "HelveticaNeueCyr-Light";
-         font-size: 24px;
-         color: #6f6f6f;
-         line-height: 34px;
-         padding-bottom: 50px;
-     }
- }
+           font-family: "HelveticaNeueCyr-Light";
+           font-size: 24px;
+           color: #6f6f6f;
+           line-height: 34px;
+           padding-bottom: 50px;
+       }
+   }
 }
 .img-text{
     position: relative;
     .txt-absolute{
-     @media only screen and (min-width : 1240px) {
+       @media only screen and (min-width : 1240px) {
         position: absolute;
         max-width: 735px;
         left:406px;
         bottom:26px;
     }
     p{
+        padding: 15px;
         font-size: 18px;
         color: #878787;
         font-family: "HelveticaNeueCyr-Light";
+        @media only screen and (min-width : 1240px) {
+            padding: 0;
+        }
     }
 }
 }
@@ -632,19 +650,18 @@ html, body{
     margin-top: 10px;
     text-align: left;
     .txt-check{
-       font-family: "HelveticaNeueCyr-Light";
-       color:#fff;
-       font-size: 16px;
-       @media only screen and (min-width : 768px) {
+     font-family: "HelveticaNeueCyr-Light";
+     color:#fff;
+     font-size: 16px;
+     @media only screen and (min-width : 768px) {
         font-size: 16px;
     }
 }
 }
-/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
 .checkbox-custom {
-    position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
-    width: 14px;             /* Обязательно задаем ширину */
-    height: 13px;            /* Обязательно задаем высоту */
+    position: relative;      
+    width: 14px;             
+    height: 13px;            
     border: 2px solid #fff;
     background:none;
     border-radius: 10em;
@@ -652,30 +669,22 @@ html, body{
     margin-right: 7px;
     cursor:pointer;
 }
-
-/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
 .checkbox-custom,
 .label {
     display: inline-block;
     vertical-align: middle;
 }
-
-/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
 .checkbox:checked + .checkbox-custom::before {
-    content: "";             /* Добавляем наш псевдоэлемент */
-    display: block;          /* Делаем его блочным элементом */
-    position: absolute;      /* Позиционируем его абсолютным образом */
-
-    /* Задаем расстояние от верхней, правой, нижней и левой границы */
+    content: "";             
+    display: block;        
+    position: absolute;      
     top: 0px;
     right: 2px;
     bottom: 2px;
     left: 0px;
     height: 10px;
     width: 10px;
-    // width: 32px;
-    // height: 30px;
-    background: #2579BF;/* Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+    background: #2579BF;
     border-radius: 10em;
 }
 
@@ -727,10 +736,12 @@ html, body{
 
 75%  {
   margin-left: -200px;
+  opacity: 1;
 
 }
 95%{
     margin-left: -100%;
+    
 }
 100% {
     display: none;
@@ -745,10 +756,12 @@ html, body{
 
 75%  {
   margin-right: -200px;
+  opacity: 1;
 
 }
 95%{
     margin-right: -100%;
+
 }
 100% {
     display: none;
